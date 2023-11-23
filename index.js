@@ -57,7 +57,7 @@ async function exitHandler(error, reason) {
 }
 
 function runCommand(run) {
-  let cmd = `(${run} wait)`
+  let cmd = `(${run})`
 
   const spawnOpts = { detached: true, stdio: 'ignore' }
 
